@@ -1,5 +1,6 @@
 # git学习
 远程仓库：
+
     1、git 添加远程github仓库的时候提示错误：fatal: remote origin already exists. 
 
         先删除远程 Git 仓库 git remote rm origin
@@ -21,8 +22,9 @@
     三次回车，如有看到The key's randomart image is，代表你的SSH Key生成成功了。
 
     cat ~/.ssh/id_rsa.pub
-    
+
 分支管理:
+
     1、查看分支：git branch
 
     2、创建分支：git branch <name>
